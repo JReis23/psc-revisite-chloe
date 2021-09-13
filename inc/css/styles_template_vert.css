@@ -1,0 +1,31 @@
+.imgPrincipale{
+    filter:drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.384));
+    border-radius : 50px 0 50px 0;
+  
+
+
+}
+
+.menuRight{
+    
+    background : linear-gradient(rgba(150, 236, 93,0.2),rgba(39, 90, 39, 0.2));
+ color :black; 
+ border-radius : 50px;
+}
+.menuRight ul{
+    list-style: none;
+}
+
+.menuRight li{
+    margin-top : 10px;
+}
+
+.menuRight a{
+    color :rgb(24, 24, 24);
+    text-decoration: none;
+}
+
+span{
+    font-style: italic;
+}
+

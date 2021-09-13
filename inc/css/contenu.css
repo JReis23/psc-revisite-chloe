@@ -1,0 +1,86 @@
+.imgPrincipale{
+    filter:drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.384));
+    border-radius : 50px 0 50px 0;
+  }
+
+
+
+.vousEtes {
+
+    background-color : rgb(56, 114, 56);
+     color : white; position: absolute;
+      top: 0%;left: 50%; transform: translate(-50%, -25%);
+       padding : 5px; border-radius:10px;
+        font-size:1.2em;
+        filter : drop-shadow(5px 5px 5px rgba(20, 44, 24, 0.678));
+        opacity  : 0.8;
+}
+
+.contenu{
+   
+    width : 300px;
+    padding:0;
+    filter: drop-shadow(5px 5px 5px rgba(59, 70, 60, 0.295));
+    margin:15px 0 15px 0;
+    text-decoration: none;
+    color: black;
+}
+
+.contenu img{ 
+    height : 150px;
+    width : inherit;
+    object-fit: cover;
+    object-position: 20% 75%;
+    border-radius :30px 0 0 0;
+}
+
+.contenu h5{
+    text-align : center;
+    color : white;
+    text-shadow :3px 3px 3px rgba(0, 0, 0, 0.2);
+    
+    width : 100%;  
+    padding : 10px; 
+    margin : 0; 
+    font-size: 1.5em;
+}
+
+.contenu p {
+
+    
+    border-radius :0 0 30px 0;
+    padding : 10px 10px 10px 10px;
+    border-bottom:solid  rgba(0, 0, 0, 0.384);
+}
+
+.contenu.foret h5{
+    background : linear-gradient(rgb(159, 211, 124),rgb(62, 102, 62));
+}
+
+.contenu.foret p{
+    background : linear-gradient(rgba(150, 236, 93,0.2),rgba(39, 90, 39, 0.2)); 
+}
+
+.contenu.pays h5{
+    background : linear-gradient(rgb(212, 146, 238),rgb(109, 68, 128));
+}
+
+.contenu.pays p{
+    background : linear-gradient(rgba(236, 93, 236, 0.2),rgba(90, 39, 87, 0.2)); 
+}
+
+.contenu.sante h5{
+    background : linear-gradient(rgb(146, 175, 238),rgb(68, 114, 128));
+}
+
+.contenu.sante p{
+    background : linear-gradient(rgba(93, 155, 236, 0.2),rgba(39, 70, 90, 0.2)); 
+}
+
+.contenu.finance h5{
+    background : linear-gradient(rgb(196, 184, 27),rgb(255, 136, 0));
+}
+
+.contenu.finance p{
+    background : linear-gradient(rgba(243, 241, 99, 0.2),rgba(147, 160, 30, 0.2)); 
+}

@@ -1,0 +1,101 @@
+/* toutes les div aurront une bordure*/
+
+div, nav,ul{
+    border: 1px   grey;
+}
+
+.onglet{
+
+    border-radius:5px;
+    
+    padding : 10px;
+    font-size: larger;
+    font-weight: bolder;
+
+}
+
+.navbar{
+    margin: 0px;
+    padding : 0px;
+}
+
+.imgCarousel{
+ height: 450px;
+ 
+ object-fit: cover;
+ border-radius: 50px 0 50px 0;
+}
+
+
+.carousel-caption h1 {
+    font-size: 1.8em;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.486);    
+}
+
+
+
+
+
+
+
+
+
+
+.blocInfo{
+
+    background: linear-gradient(rgb(151, 151, 151),rgba(0,0,0,0));
+    max-width: 300px;
+    border-radius: 50px 50px 0 0;
+ 
+
+
+}
+.blocInfo img{
+    width: 200px;
+    height: 200px; 
+    object-fit: cover;
+    border-radius: 30px;
+    margin: 20px;
+    
+}
+
+.blocInfo h5{
+    font-weight: bold;
+}
+
+.Abonnement{
+    border-radius: 50px;
+}
+
+
+
+
+.sectionPartenaire img{
+   
+    height: 70px;
+}
+
+
+.photoEquipe{
+    border-radius: 30px;
+}
+
+
+/* LISTE ACTUALITE */
+
+.actualiteListe.foret{
+    background : linear-gradient(rgba(150, 236, 93,0.2),rgba(39, 90, 39, 0.2));
+}
+
+.actualiteListe.pays{
+    background : linear-gradient(rgba(212, 93, 236, 0.2),rgba(130, 90, 204, 0.322));
+}
+
+.actualiteListe.sante{
+    background : linear-gradient(rgba(93, 160, 236, 0.2),rgba(90, 187, 204, 0.322));
+}
+
+.actualiteListe.finance{
+    background : linear-gradient(rgba(236, 233, 93, 0.2),rgba(204, 158, 90, 0.322));
+}

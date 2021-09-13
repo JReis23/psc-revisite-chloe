@@ -1,0 +1,81 @@
+
+imgFondComplet{
+background-image:url(../images/motifs_BG/BG_flou.jpg);
+background-size: 100%;
+
+}
+
+/* couleurs de la NAV */
+
+.colorGrey{
+    background :linear-gradient( rgb(128, 128, 128),rgb(83, 83, 83));
+}
+
+.colorGreyPale{
+    background :linear-gradient( rgb(218, 218, 218),rgb(255, 255, 255));
+}
+
+.colorPSC{
+    background-color: rgb(38, 211, 32);
+}
+
+.colorPSC_gradiant{
+            background :linear-gradient( rgb(136, 201, 62), rgb(67, 151, 64));
+        border-top: solid 5px rgb(187, 187, 187);       
+}
+
+/* color des rtextes*/
+
+.colorTextSante{
+    color :rgb(21, 90, 180)
+}
+
+.colorTextForet{
+    color :rgb(12, 121, 30)
+}
+
+.colorTextPays{
+    color :rgb(176, 28, 196)
+}
+
+/* couleurs des quatres CARTES*/
+
+.colorPays_gradiant{
+    background: linear-gradient(rgb(115, 67, 136), rgb(215, 161, 236))
+}
+
+.colorFinance_gradiant{
+    background: linear-gradient(rgb(255, 153, 19), rgb(255, 227, 70))
+}
+
+.colorForet_gradiant{
+    background: linear-gradient(rgb(28, 153, 44), rgb(123, 196, 190))
+}
+
+.colorSante_gradiant{
+    background: linear-gradient(rgb(65, 80, 148), rgb(151, 176, 206))
+}
+
+/* couleurs des CONTENUS FIXE*/
+
+/*couleurs dropdawon*/
+.colorDropdownPays {
+    background: linear-gradient(rgb(247, 232, 255), rgb(215, 161, 236));
+    border-radius:0 0 30px 30px ;
+}
+
+.colorDropdownFinance {
+    background: linear-gradient(rgba(253, 255, 219, 0.945), rgb(247, 255, 130));
+    border-radius:0 0 30px 30px ;
+}
+
+.colorDropdownForet {
+    background: linear-gradient(rgb(213, 255, 205), rgb(123, 196, 141));
+    border-radius:0 0 30px 30px ;
+}
+
+.colorDropdownSante {
+    background: linear-gradient(rgb(213, 238, 255), rgb(151, 176, 206));
+    border-radius:0 0 30px 30px ;
+}
+

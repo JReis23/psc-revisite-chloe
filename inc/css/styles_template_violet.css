@@ -1,0 +1,99 @@
+.imgPrincipale{
+    filter:drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.384));
+    border-radius : 50px 0 50px 0;
+
+
+}
+
+.menuRight{
+    
+    background : linear-gradient(rgba(150, 236, 93,0.2),rgba(39, 90, 39, 0.2));
+ color :black; 
+}
+.menuRight ul{
+    list-style: none;
+}
+
+.menuRight li{
+    margin-top : 10px;
+}
+
+.menuRight a{
+    color :rgb(24, 24, 24);
+    text-decoration: none;
+}
+
+span{
+    font-style: italic;
+}
+
+.actu{
+   
+    width : 300px;
+    padding:0;
+    filter: drop-shadow(5px 5px 5px rgba(59, 70, 60, 0.295));
+    margin-bottom:15px;
+}
+
+.actu img{ 
+    height : 200px;
+    width : inherit;
+    object-fit: cover;
+    object-position: 20% 10%;
+    border-radius :30px 0 0 0;
+}
+
+.actu h5{
+    text-align : center;
+    color : white;
+    text-shadow :3px 3px 3px rgba(0, 0, 0, 0.2);
+    background : linear-gradient(rgb(159, 211, 124),rgb(62, 102, 62));
+    width : 100%;  
+    padding : 10px; 
+    margin : 0; 
+}
+
+.actu p {
+
+    background : linear-gradient(rgba(150, 236, 93,0.2),rgba(39, 90, 39, 0.2));
+    border-radius :0 0 30px 0;
+    padding : 10px 10px 10px 10px;
+    border-bottom:solid  rgba(0, 0, 0, 0.384);
+}
+
+.blocSousRubrique{
+    background-color : violet;
+  
+    margin : 5px;
+    text-align:center;
+}
+
+.blocSousRubrique h3{
+    color : white;
+    font-weight : bolder;
+    position : relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.blocSousRubrique1{
+    background: linear-gradient(90deg, violet, rgba(0, 0, 255, 0.164));
+}
+
+.blocSousRubrique2{
+    background: linear-gradient( violet, rgba(0, 0, 255, 0.164));
+}
+
+.blocSousRubrique3{
+    background: linear-gradient(90deg, violet, rgba(0, 0, 255, 0.164));
+}
+
+.blocSousRubrique4{
+    background: linear-gradient(180deg, violet, rgba(0, 0, 255, 0.164));
+}
+
+.blocSousRubrique5{
+    background: linear-gradient(-90deg, violet, rgba(0, 0, 255, 0.164));
+}

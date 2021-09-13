@@ -1,0 +1,41 @@
+
+
+.menuRight{
+    
+    
+ color :black; 
+ border-radius : 15px;
+}
+.menuRight ul{
+    list-style: none;
+}
+
+.menuRight li{
+    margin-top : 10px;
+}
+/*
+.menuRight a{
+    color :rgb(24, 24, 24);
+    text-decoration: none;
+}
+*/
+span{
+    font-style: italic;
+}
+
+
+.menuRight.foret{
+    background : linear-gradient(rgba(150, 236, 93,0.2),rgba(39, 90, 39, 0.2));
+}
+
+.menuRight.pays{
+    background : linear-gradient(rgba(212, 93, 236, 0.2),rgba(130, 90, 204, 0.322));
+}
+
+.menuRight.sante{
+    background : linear-gradient(rgba(93, 160, 236, 0.2),rgba(90, 187, 204, 0.322));
+}
+
+.menuRight.finance{
+    background : linear-gradient(rgba(236, 233, 93, 0.2),rgba(204, 158, 90, 0.322));
+}

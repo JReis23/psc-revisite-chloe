@@ -1,0 +1,29 @@
+
+
+
+.trombi{
+    text-align:center;
+    float: none;
+}
+
+.trombi img{
+    height:150px;
+    border-radius: 10px;
+    border : solid 5px rgb(255, 255, 255,1 );
+    filter : drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.322))
+    
+    
+  
+}
+
+.trombi h5{
+    padding-top:10px;
+    font-size: 1em;
+    font-weight: bolder;    
+}
+
+.trombi p{
+   
+
+    font-style: italic;
+}
